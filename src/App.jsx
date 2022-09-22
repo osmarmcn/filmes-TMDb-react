@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Menu/>
-      <h2>Filmes TMDb</h2>
+      
       <Outlet/>
       
     </div>
@@ -17,3 +17,9 @@ function App() {
 }
 
 export default App
+
+/*
+as rotas " pai "(que englobam outras rotas) também irão renderizar o conteúdo das suas " filhas " por meio de um rota de reação , chamado Outlet .
+As opções da rota que estão sendo acessadas, o componente Outlet irá renderizar ou o componente IndidualInvoice ou componente SentInvoices .
+      
+*/
