@@ -7,7 +7,7 @@ import Menu from "./componentes/Menu"
 function App() {
   
   return (
-    <div className="App">
+    <div className="app-container">
       <Menu/>
       
       <Outlet/>
